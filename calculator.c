@@ -82,7 +82,7 @@ int main() {
             case 'i':
                 printf("Enter an integer: ");
                 scanf("%d", &a);
-                printf("The result of %d ^-1 is %d\n",a,inverse(a));
+                printf("The result of %d ^-1 is %f\n",a,inverse(a));
                 break;
             default:
                 printf("Invalid operation. Please try again.\n");
